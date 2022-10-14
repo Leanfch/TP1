@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link
+      rel="shortcut icon"
+      href="assets/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Leandro Martín Fernández Chapotot - DWN3AV - PWA</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+          <div class="card p-0">
+            <input type="text" id="inputText" class="m-auto my-2" placeholder="Introduzca una ciudad"/>
+            <button type="submit" id="button" class="m-auto my-2">Buscar</button>
+            <div id="ciudadBuscada" class="text-center">
+              <h1 id="nombreCiudad"></h1>
+              <img src="" alt="" id="img">
+              <p id="temperatura"></p>
+              <p id="sensacionTermica"></p>
+              <p id="maxima"></p>
+              <p id="minima"></p>
+              <p id="humedad"></p>
+              <p id="presion"></p>
+              <p id="viento"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

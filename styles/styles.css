@@ -1,0 +1,45 @@
+/*LINK A LA PALETA https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.card{
+    background-color: #E5E5e5;
+}
+
+#img {
+    width: 5rem;
+    height: 5rem;
+}
+
+#ciudadBuscada {
+    display: none;
+}
+
+#button {
+    width: 25%;
+    background-color: #FCA311;
+    border: none;
+    border-radius: 5px;
+    padding: .2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#button:hover {
+    background-color: #da8e14;
+}
+
+#inputText {
+    width: 40%;
+}
+
+#nombreCiudad {
+    background-color: #14213D;
+    color: #FFFFFF;
+    padding: .5em 0;
+}
